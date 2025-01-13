@@ -24,7 +24,7 @@ Welcome to **Hitek**, a robust and scalable e-commerce platform designed to acco
 - **Axios**: Configured a custom Axios instance for optimized and secure API communication.
 - **TailwindCSS**: Developed responsive and modern UI components, ensuring a cohesive and intuitive design.
 
-### Media Storage
+### Storage
 - **AWS S3**:
   - Leveraged AWS S3 for scalable and secure storage of product images and other media files.
   - Ensured fast and reliable access to stored assets, enhancing user experience.
@@ -36,7 +36,7 @@ Welcome to **Hitek**, a robust and scalable e-commerce platform designed to acco
 - **Backend**: Express.js, MongoDB, JWT
 - **Frontend**: ReactJS, Redux Toolkit, Axios, TailwindCSS
 - **Database**: MongoDB Atlas
-- **Media Storage**: AWS S3
+- **Storage**: AWS S3
 
 ---
 
