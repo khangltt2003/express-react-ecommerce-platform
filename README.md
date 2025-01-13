@@ -40,7 +40,7 @@ Welcome to **Hitek**, a robust and scalable e-commerce platform designed to acco
 
 ---
 
-## Key Achievements
+## Achievements
 
 - Seamlessly managed over 50+ users and 100+ products with efficient server-client communication.
 - Handled 200+ orders, categories, and product images while ensuring secure data management.
