@@ -1,40 +1,47 @@
-# Hitek: Full-Stack E-Commerce Web Application
+# Hitek: Full-Stack E-Commerce Platform
 
-Welcome to **Hitek**, a secure, scalable, and maintainable full-stack e-commerce platform designed to provide a seamless shopping experience. This project was built from the ground up using modern web technologies and frameworks, ensuring a robust and efficient solution for online retail.
+Welcome to **Hitek**, a robust and scalable e-commerce platform designed to accommodate seamless interactions for over 50+ users and 100+ products. Built using modern full-stack technologies, this platform ensures security, scalability, and an exceptional user experience.
 
 ---
 
 ## Features
 
 ### Backend
-- **Express.js**: Developed a scalable server, implementing a comprehensive **REST API** for efficient communication between the client and server.
+- **Express.js**: Built a robust server and developed comprehensive **REST APIs** for managing:
+  - Customers
+  - Products
+  - Categories
+  - Orders
 - **Secure Authentication and Authorization**:
-  - Integrated **JWT (JSON Web Tokens)** to protect routes and resources.
-  - Ensured secure customer login and data handling.
-- **Mongoose Models**:
-  - Designed models to manage customers, items, and categories.
-  - Connected to **MongoDB Atlas** for scalable and reliable data storage.
+  - Integrated **JWT (JSON Web Tokens)** for customer authentication and protected route access.
+- **Database Management**:
+  - Utilized **MongoDB Atlas** for efficient and reliable cloud-based database management.
+  - Stored and managed data for over 200+ orders, categories, and products.
 
 ### Frontend
-- **ReactJS**: Created a dynamic and responsive user interface for an engaging shopping experience.
-- **Axios**: Simplified API calls for efficient data retrieval and interactions with the backend.
-- **Redux**: Implemented robust state management for consistent and smooth application performance.
-- **TailwindCSS**: 
-  - Accelerated the styling process with utility-first CSS classes.
-  - Ensured a responsive, modern, and cohesive design system.
+- **ReactJS**: Designed a dynamic and responsive user interface for a seamless customer experience.
+- **Redux Toolkit**: Implemented advanced state management for smooth and consistent application performance.
+- **Axios**: Configured a custom Axios instance for optimized and secure API communication.
+- **TailwindCSS**: Developed responsive and modern UI components, ensuring a cohesive and intuitive design.
+
+### Media Storage
+- **AWS S3**:
+  - Leveraged AWS S3 for scalable and secure storage of product images and other media files.
+  - Ensured fast and reliable access to stored assets, enhancing user experience.
 
 ---
 
 ## Technologies Used
 
-- **Backend**: Express.js, MongoDB, Mongoose, JWT
-- **Frontend**: ReactJS, Redux, Axios, TailwindCSS
-- **Database**: MongoDB hosted on **Atlas** for scalable cloud-based storage.
+- **Backend**: Express.js, MongoDB, JWT
+- **Frontend**: ReactJS, Redux Toolkit, Axios, TailwindCSS
+- **Database**: MongoDB Atlas
+- **Media Storage**: AWS S3
 
 ---
 
 ## Key Achievements
 
-- Built a secure, maintainable e-commerce platform from scratch.
-- Achieved a smooth customer experience through responsive design and efficient state management.
-- Leveraged modern tools and best practices to ensure high scalability and reliability.
+- Seamlessly managed over 50+ users and 100+ products with efficient server-client communication.
+- Handled 200+ orders, categories, and product images while ensuring secure data management.
+- Achieved a responsive and modern design system, enhancing user engagement and satisfaction.
